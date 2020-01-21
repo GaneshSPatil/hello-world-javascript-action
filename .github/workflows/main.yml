@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
-      - name: Hello world action step
+      - name: Ganeshpl Hello World
         id: hello
-        uses: actions/ganeshpl-hello-world@v1.2.0
+        uses: GaneshSPatil/hello-world-javascript-action@v1.2.0
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
